@@ -1,0 +1,21 @@
+1.about the robot:
+	-start at random position in the room with a random direction of motion.
+	-maybe use angle to present the moving direction of robot.
+
+2.the problem cases£º
+	-we have more than one robot in the room(uses N stand for number of robots).
+	-robots are point which can pass through or occupy each other.
+	-robots can not pass through the walls of the room
+	-the size of the room was given by width(w) and height(h)
+
+3.robot motion rules:
+	-each robot has a position in the room presented by coordinates(x,y).
+	-each robot will get a direction(d) and a constant speed (s).
+	-robots will get a new direction at random when they hit the walls of the room.
+	-Tiles(**): problem set divides the room into w*h tiles which tiles are 1*1 size. In order to simplify the problem, we assume that the tiles was
+cleaned when a robot move at it.
+
+4.Termination:
+	-the entire program ended at the time when the room was cleaned.
+
+
